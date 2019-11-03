@@ -1,0 +1,80 @@
+html {
+   font-family: "Fredoka One", sans-serif;
+}
+
+.card {
+border-top: solid 8px #b3fbff;
+border-bottom: solid 8px #b3fbff;
+background-image: repeat-linear-gradient(-33deg, #c9fcff,#d4fdff);
+}
+
+h1 {
+position: absolute;
+color: #990073;
+max-width: 20em;
+transform-origin: left center;
+transform: rotateX(-10deg);
+}
+
+h2 {
+position: absolute;
+color: #c09;
+max-width: 19em;
+transform-origin: left center;
+transform: rotateX(-10deg);
+}
+
+
+.title {
+animation: title .3s 1s linear forward;
+transform: translate (3em, 0)
+filter: blur (8px) opacity(0)
+}
+
+.body {
+animation: body .3s 1s linear forward;
+transform: translate (3em, 0)
+filter: blur (8px) opacity(0)
+}
+
+.go {
+  animation: body .3s 1s linear forward;
+  transform: translate (3em, 0)
+  filter: blur (8px) opacity(0)
+}
+
+.icecream{
+ bottom: 100%;
+ left: 50%;
+ transform: translate(-10%);
+}
+
+.cone {
+animation: cone 3s ease-in forwards;
+position: absolute;
+z-index: 10
+}
+
+.mint {
+  animation: mint 3s ease-in forwards;
+  position: absolute;
+  z-index: 10
+}
+
+.chocolate {
+  animation: chocolate 3s ease-in forwards;
+  position: absolute;
+  z-index: 10
+}
+
+.vanilla {
+  animation: vanilla 3s ease-in forwards;
+  position: absolute;
+  z-index: 10
+}
+
+.cherry {
+  animation: cherry 3s ease-in forwards;
+  position: absolute;
+  z-index: 10
+}
